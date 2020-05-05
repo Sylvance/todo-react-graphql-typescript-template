@@ -4,7 +4,7 @@ import Todo from "../models/Todo";
 
 export const TodoListItem = ({ id, title }: Todo) => (
   <aside>
-    <h2>{id}</h2>
+    <h4>{id}</h4>
     <p>{title}</p>
   </aside>
 );
